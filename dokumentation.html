@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+  </head>
+
+  <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Animation</a></li>
+                <li><a href="dokumentation.html">Dokumentation</a></li>
+            </ul>
+        </nav>
+  
+
+      </header>
+        <br>
+        <br>
+        <br>
+        <p>Technisch: 
+            
+            <br>
+            <br>
+            Ich habe das p5.js Framework für die Darstellung des Graphen, der Tabelle und Legende, verwendet.
+        </p>
+        <p>Fachlich: 
+
+            <br>
+            <br>
+            Nachdem ich 1265 Codezeilen geschrieben hatte und um einiges mehr Zeit als vorgesehen in diese Aufgabe investiert habe, ist mir aufgefallen, dass die Logik meines Automaten nicht stimmt.
+            <br>
+            Das ist leider sehr ärgerlich und hätte ich noch ein paar Tage könnte ich mir Zeit dafür nehmen.
+            <br>
+            Ich denke Ich werde eine entsprechende Bewertung hierfür akzeptieren müssen.
+            <br>
+            <br>
+            Ich habe hier etwas zur Logik geschrieben:
+            <br>
+            <br>
+            Zur Logik:
+            <br>
+            <br>
+            Wenn wir ein Zeichen entfernen, haben wir die folgenden Fälle, in denen der arithmetische Ausdruck ungültig wird:
+            <br>
+            <br>
+            Es wird eine Klammer gelöscht
+            <br>
+            <br>
+            Beispiel: (3+4 * (3 -9)
+            <br>
+            <br>
+            Es wird eine Zahl gelöscht
+            <br>
+            <br>
+            Beispiel: (7 * 6) +
+            <br>
+            <br>
+            Es wird ein Operator gelöscht
+            <br>
+            <br>
+            Beispiel: (4 + 5) 6
+            <br>
+            <br>
+            Es gibt allerdings 2 Ausnahmen: 
+            <br>
+            <br>
+            Wird eine Zahl vor einem + oder – gelöscht, so ist der Ausdruck immer noch gültig
+            <br>
+            <br>
+            Beispiel: (-4) +3 oder (+2) * 7
+            <br>
+            <br>
+            Wird ein Operator zwischen zwei Zahlen gelöscht, ist dieser ebenfalls gültig, da eine neue Zahl entsteht.
+            <br>
+            <br>
+            Beispiel: (56) * 3
+
+
+
+        </p>
+
+
+  </body>
+</html>
